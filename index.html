@@ -27,7 +27,13 @@
         .content { color: #2c3e50; }
         ul { margin-left: 20px; margin-top: 8px; }
         li { margin: 5px 0; }
-        @media (max-width: 768px) { .workflow { grid-template-columns: 1fr; } h1 { font-size: 1.8em; } }
+        .website-section { background: white; border-radius: 12px; padding: 30px; box-shadow: 0 8px 20px rgba(0,0,0,0.2); margin-top: 30px; }
+        .website-section h2 { color: #667eea; margin-bottom: 20px; }
+        .fact-box { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; margin-top: 20px; }
+        .fact { padding: 15px; border-radius: 8px; border: 2px solid #e0e0e0; }
+        .fact.yes { background: #e8f5e9; border-color: #4caf50; }
+        .fact.no { background: #ffebee; border-color: #f44336; }
+        @media (max-width: 768px) { .workflow { grid-template-columns: 1fr; } .fact-box { grid-template-columns: 1fr; } h1 { font-size: 1.8em; } }
     </style>
 </head>
 <body>
@@ -38,41 +44,54 @@
                 <div class="phase-header phase-1">DAYS 1–5: Market Intelligence</div>
                 <div class="sticky-note tip"><div class="label">⚠️ Critical Rule</div><div class="content">You are NOT allowed to pitch yet</div></div>
                 <div class="sticky-note action"><div class="label">📋 Task</div><div class="content">Identify 20 gaming + 20 tech brands</div></div>
-                <div class="sticky-note action"><div class="label">📝 Research</div><div class="content"><ul><li>Product</li><li>Platform used</li><li>Creators they work with</li><li>Offer style</li></ul></div></div>
-                <div class="sticky-note outcome"><div class="label">✅ Outcome</div><div class="content">Understand how money flows</div></div>
+                <div class="sticky-note action"><div class="label">📝 Research Each Brand</div><div class="content"><ul><li>Product</li><li>Platform used</li><li>Creators they work with</li><li>Offer style (paid/affiliate/free)</li></ul></div></div>
+                <div class="sticky-note action"><div class="label">🔍 Where to Look</div><div class="content"><ul><li>TikTok ads</li><li>Instagram sponsored posts</li><li>App store Events</li><li>Amazon influencer storefronts</li></ul></div></div>
+                <div class="sticky-note outcome"><div class="label">✅ Outcome</div><div class="content">Understand how money flows. Skip this = guessing</div></div>
             </div>
             <div class="phase">
                 <div class="phase-header phase-2">DAYS 6–10: Creator Mapping</div>
-                <div class="sticky-note tip"><div class="label">⚠️ Important</div><div class="content">NOT outreach yet</div></div>
-                <div class="sticky-note action"><div class="label">🎮 Gaming Creators</div><div class="content"><ul><li>Install-focused</li><li>Mobile games</li><li>CTA-heavy</li></ul></div></div>
-                <div class="sticky-note action"><div class="label">💻 Tech Creators</div><div class="content"><ul><li>Gadget demos</li><li>Problem-solution</li><li>Amazon-style</li></ul></div></div>
-                <div class="sticky-note outcome"><div class="label">✅ Outcome</div><div class="content">Know who gets paid vs pretends</div></div>
+                <div class="sticky-note tip"><div class="label">⚠️ Important</div><div class="content">NOT outreach yet - just mapping</div></div>
+                <div class="sticky-note action"><div class="label">🎮 Gaming Creators</div><div class="content"><ul><li>Install-focused</li><li>Mobile games preferred</li><li>CTA-heavy content</li></ul></div></div>
+                <div class="sticky-note action"><div class="label">💻 Tech Creators</div><div class="content"><ul><li>Gadget demos</li><li>Problem-solution videos</li><li>Amazon-style pacing</li></ul></div></div>
+                <div class="sticky-note action"><div class="label">📊 Track for Each</div><div class="content"><ul><li>Avg views (last 10 posts)</li><li>Link in bio?</li><li>Past brand tags?</li></ul></div></div>
+                <div class="sticky-note outcome"><div class="label">✅ Outcome</div><div class="content">Know who gets paid vs who pretends</div></div>
             </div>
             <div class="phase">
                 <div class="phase-header phase-3">DAYS 11–15: Offer Engineering</div>
-                <div class="sticky-note tip"><div class="label">🔑 Secret</div><div class="content">Do NOT sell "influencer marketing"</div></div>
-                <div class="sticky-note action"><div class="label">💻 Tech Offer</div><div class="content">"3 short-form videos optimized for ads, 7 days"</div></div>
-                <div class="sticky-note action"><div class="label">🎮 Gaming Offer</div><div class="content">"5 creator videos with CTA for installs"</div></div>
-                <div class="sticky-note outcome"><div class="label">✅ Outcome</div><div class="content">Clear deliverables brands buy</div></div>
+                <div class="sticky-note tip"><div class="label">🔑 Secret Layer</div><div class="content">Do NOT sell "influencer marketing"</div></div>
+                <div class="sticky-note action"><div class="label">💻 Tech Offer Example</div><div class="content">"3 short-form product videos optimized for ads, delivered in 7 days"</div></div>
+                <div class="sticky-note action"><div class="label">🎮 Gaming Offer Example</div><div class="content">"5 creator videos with CTA optimized for installs (TikTok-style)"</div></div>
+                <div class="sticky-note tip"><div class="label">📌 Notice</div><div class="content"><ul><li>No followers mentioned</li><li>No vanity metrics</li><li>Clear deliverables</li></ul></div></div>
+                <div class="sticky-note outcome"><div class="label">✅ Outcome</div><div class="content">This is what brands actually buy</div></div>
             </div>
             <div class="phase">
                 <div class="phase-header phase-4">DAYS 16–20: Outreach</div>
-                <div class="sticky-note tip"><div class="label">🎯 Strategy</div><div class="content">20 informed messages, not 500 DMs</div></div>
-                <div class="sticky-note action"><div class="label">📧 Reference</div><div class="content"><ul><li>Their product</li><li>Their content</li><li>Gap you noticed</li></ul></div></div>
-                <div class="sticky-note outcome"><div class="label">✅ Outcome</div><div class="content">Above 95% of beginners</div></div>
+                <div class="sticky-note tip"><div class="label">🎯 Strategy</div><div class="content">High-signal only. NOT 500 DMs. More like 20 very informed messages</div></div>
+                <div class="sticky-note action"><div class="label">📧 Reference in Each Message</div><div class="content"><ul><li>Their product</li><li>Their existing content</li><li>A gap you noticed</li></ul></div></div>
+                <div class="sticky-note outcome"><div class="label">✅ Outcome</div><div class="content">This alone puts you above 95% of beginners</div></div>
             </div>
             <div class="phase">
-                <div class="phase-header phase-5">DAYS 21–25: Negotiation</div>
-                <div class="sticky-note tip"><div class="label">⚠️ Critical</div><div class="content">Tactical, not emotional</div></div>
-                <div class="sticky-note action"><div class="label">🗣️ Objections</div><div class="content"><ul><li>"We work with creators"</li><li>"We do affiliate"</li><li>"Send media kit"</li></ul></div></div>
-                <div class="sticky-note outcome"><div class="label">✅ Outcome</div><div class="content">Prepare responses</div></div>
+                <div class="phase-header phase-5">DAYS 21–25: Negotiation & Objections</div>
+                <div class="sticky-note tip"><div class="label">⚠️ Where Deals Die</div><div class="content">Handle objections tactically, not emotionally</div></div>
+                <div class="sticky-note action"><div class="label">🗣️ Common Objections</div><div class="content"><ul><li>"We already work with creators"</li><li>"We do affiliate"</li><li>"Send media kit"</li></ul></div></div>
+                <div class="sticky-note outcome"><div class="label">✅ Outcome</div><div class="content">Prepare tactical responses (not emotional reactions)</div></div>
             </div>
             <div class="phase">
                 <div class="phase-header phase-6">DAYS 26–30: First Transaction</div>
-                <div class="sticky-note tip"><div class="label">💰 Any Size</div><div class="content">₹500, ₹2K, ₹10K — irrelevant</div></div>
-                <div class="sticky-note action"><div class="label">🎯 Milestone</div><div class="content">Brand pays for creator value</div></div>
-                <div class="sticky-note outcome"><div class="label">✅ Proves</div><div class="content">Positioning + Communication + Trust</div></div>
+                <div class="sticky-note tip"><div class="label">💰 Any Size Counts</div><div class="content">₹500, ₹2,000, ₹10,000 — irrelevant</div></div>
+                <div class="sticky-note action"><div class="label">🎯 Real Milestone</div><div class="content">Brand pays you for creator-driven value</div></div>
+                <div class="sticky-note outcome"><div class="label">✅ This Proves</div><div class="content"><ul><li>Positioning ✓</li><li>Communication ✓</li><li>Trust ✓</li></ul></div></div>
             </div>
+        </div>
+        <div class="website-section">
+            <h2>🌐 Website — FACTS, not opinions</h2>
+            <div class="fact-box">
+                <div class="fact no"><strong>❌ Do you NEED a website?</strong><p>No, to make money</p></div>
+                <div class="fact yes"><strong>✅ Do you NEED a website?</strong><p>Yes, to increase trust</p></div>
+            </div>
+            <div class="sticky-note" style="margin-top: 20px;"><div class="label">📊 Data-Backed Truth</div><div class="content"><ul><li>Early-stage deals close via DM/email</li><li>Websites help AFTER first social proof</li></ul></div></div>
+            <div class="sticky-note action" style="margin-top: 15px;"><div class="label">✅ Correct Move</div><div class="content"><ul><li>Simple 1-page site (Carrd / Notion)</li><li>NOT a "full agency website"</li></ul></div></div>
+            <div class="sticky-note tip" style="margin-top: 15px;"><div class="label">⚠️ Warning</div><div class="content">If you build a fancy site before deals → procrastination</div></div>
         </div>
     </div>
 </body>
